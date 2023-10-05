@@ -1,9 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "name": "Лена Новикова",
+      "id": 2,
+      "email": "lenkan@gmail.com",
+      "permissions": [
+        "Обращения клиентов",
+        "Акции"
+      ],
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    },
+    {
+      "name": "Максим Иванов",
+      "id": 3,
+      "email": "maksiim@gmail.com",
+      "permissions": [
+        "Модерация объявлений",
+        "Блог",
+        "Тех. поддержка",
+        "Обращения клиентов",
+        "Акции"
+      ],
+      "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"
+    },
+    {
+      "name": "Айжулдыз Кошкинбай",
+      "id": 4,
+      "email": "aizhzk@gmail.com",
+      "permissions": [
+        "Обращения клиентов"
+      ],
+      "image": "https://gorodprizrak.com/wp-content/uploads/2021/01/346545.jpg"
+    },
+    {
+      "name": "Пользователь",
+      "email": "test@test.com",
+      "id": 1696499950200,
+      "permissions": [
+        "Тех. поддержка",
+        "Аналитика",
+        "Акции"
+      ],
+      "image": ""
+    },
+    {
+      "name": "Пользователь",
+      "email": "aksjfhaskjhfas@dadkjhasdasasd",
+      "id": 1696501628920,
+      "permissions": [
+        "Модерация объявлений",
+        "Блог",
+        "Обращения клиентов"
+      ],
+      "image": ""
+    }
+  ]
 }
